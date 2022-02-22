@@ -172,12 +172,18 @@ ruled.client.connect_signal(
 					'Lutris',
 					'Citra',
 					'supertuxkart',
-					'Moonlight'
+					'Moonlight',
+					'retroarch',
+					'yuzu',
+					'pcsx2'
 				},
 				name = {
 					'Steam',
 					'Lutris',
-					'Moonlight'
+					'Moonlight',
+					'RetroArch',
+					'yuzu',
+					'PCSX2'
 				}
 			},
 			properties = {
