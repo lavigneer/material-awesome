@@ -74,6 +74,12 @@ git clone https://github.com/HikariKnight/material-awesome.git ~/.config/awesome
 
 > This theme requires the current (as of 23.02.2021) **master** branch of Awesome, it does not work on Awesome 4.3-stable which is what most distros ship. If you want to install the older config on Awesome4.3-stable or Awesome 4.2 use the specific awesome-4.2 or awesome4.3-stable branch (not in development by me)
 
+
+Lua5.4: Lua version 5.4 changed how require works, this is a breaking change with Lua 5.3, a special Lua5.4 compatible branch has been made for the transition period
+```
+git clone -b lua5.4 https://github.com/HikariKnight/material-awesome.git ~/.config/awesome
+```
+
 Awesome4.3-stable (older version with less features, no longer maintained, browse the branch for install requirements!)
 ```
 git clone -b awesome4.3-stable https://github.com/HikariKnight/material-awesome.git ~/.config/awesome
