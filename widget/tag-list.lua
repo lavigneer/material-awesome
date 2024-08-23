@@ -52,15 +52,16 @@ local function list_update(w, buttons, label, data, objects)
       ib = wibox.widget.imagebox()
       tb = wibox.widget.textbox()
       bgb = wibox.container.background()
-      tbm = wibox.container.margin(tb, dpi(4), dpi(16))
+      -- tbm = wibox.container.margin(tb, dpi(4), dpi(16))
+      tbm = wibox.container.margin(tb, dpi(20), dpi(20), dpi(12), dpi(12))
       ibm = wibox.container.margin(ib, dpi(12), dpi(12), dpi(12), dpi(12))
       l = wibox.layout.fixed.horizontal()
       bg_clickable = clickable_container()
 
       -- All of this is added in a fixed widget
       l:fill_space(true)
-      l:add(ibm)
-      -- l:add(tbm)
+      -- l:add(ibm)
+      l:add(tbm)
       bg_clickable:set_widget(l)
 
       -- And all of this gets a background
